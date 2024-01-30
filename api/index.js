@@ -1,4 +1,5 @@
 import express from 'express';
+import userRoutes from './routes/user.route.js'
 
 const app = express();
 
@@ -20,3 +21,5 @@ mongoose
 app.listen(3000, () => {
     console.log('app is listen on port number: 3000');
 })
+
+app.use('/api/user', userRoutes)

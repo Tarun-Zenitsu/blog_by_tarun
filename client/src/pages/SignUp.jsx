@@ -68,7 +68,7 @@ export default function SignUp() {
               <Label value='Your email' />
               <TextInput
                 type='email'
-                placeholder='name@company.com'
+                placeholder='name@gmail.com'
                 id='email'
                 onChange={handleChange}
               />
